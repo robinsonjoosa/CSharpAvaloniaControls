@@ -1,0 +1,13 @@
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\bin\Debug\netcoreapp2.1\AvaloniaTreeView.deps.json
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\bin\Debug\netcoreapp2.1\AvaloniaTreeView.runtimeconfig.json
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\bin\Debug\netcoreapp2.1\AvaloniaTreeView.runtimeconfig.dev.json
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\bin\Debug\netcoreapp2.1\AvaloniaTreeView.dll
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\bin\Debug\netcoreapp2.1\AvaloniaTreeView.pdb
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\obj\Debug\netcoreapp2.1\AvaloniaTreeView.csproj.AssemblyReference.cache
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\obj\Debug\netcoreapp2.1\AvaloniaTreeView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\obj\Debug\netcoreapp2.1\AvaloniaTreeView.AssemblyInfoInputs.cache
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\obj\Debug\netcoreapp2.1\AvaloniaTreeView.AssemblyInfo.cs
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\obj\Debug\netcoreapp2.1\AvaloniaTreeView.csproj.CoreCompileInputs.cache
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\obj\Debug\netcoreapp2.1\AvaloniaTreeView.dll
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\obj\Debug\netcoreapp2.1\AvaloniaTreeView.pdb
+C:\Users\Robinson\Source\Repos\CSharpAvaloniaControls\obj\Debug\netcoreapp2.1\AvaloniaTreeView.genruntimeconfig.cache

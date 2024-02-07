@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:AvaloniaTreeView.ViewModels;assembly=AvaloniaTreeView"
+        xmlns:models="clr-namespace:AvaloniaTreeView.Models;assembly=AvaloniaTreeView"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="450"
+        Width="600" Height="450"
+        x:Class="AvaloniaTreeView.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="AvaloniaTreeView">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+
+    <TreeView Items="{Binding ScheduledMeetings}">
+        <TreeView.DataTemplates>
+            <TreeDataTemplate DataType="models:Meeting" ItemsSource="{Binding Departments}">
+                <TextBlock Foreground="Red" Text="{Binding MeetingName}" />
+            </TreeDataTemplate>
+            <TreeDataTemplate DataType="models:Department" ItemsSource="{Binding Eployees}">
+                <TextBlock Foreground="Green" Text="{Binding DepartmentName}" />
+            </TreeDataTemplate>
+            <TreeDataTemplate DataType="models:Employee" ItemsSource="{Binding Eployees}">
+                <TextBlock Text="{Binding Name}" />
+            </TreeDataTemplate>    
+            <DataTemplate DataType="models:Manager">
+                <TextBlock Text="{Binding ProperName}" />
+            </DataTemplate>    
+            <DataTemplate>
+                <TextBlock Text="{Binding}" />
+            </DataTemplate>
+        </TreeView.DataTemplates>
+    </TreeView>
+</Window>
